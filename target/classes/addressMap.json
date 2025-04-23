@@ -1,0 +1,790 @@
+{
+  "addressMap": [
+    {
+      "address": 0,
+      "name": "operation Heartbit",
+      "type": "UINT16",
+      "unit": "",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 1,
+      "name": "temperature",
+      "type": "INT16",
+      "unit": "°C",
+      "size": 2,
+      "scale": 10
+    },
+    {
+      "address": 2,
+      "name": "frequency",
+      "type": "UINT16",
+      "unit": "Hz",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 3,
+      "name": "program version",
+      "type": "UINT16",
+      "unit": "",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 4,
+      "name": "present CO2 use(month)",
+      "type": "UINT16",
+      "unit": "Kg",
+      "size": 2,
+      "scale": 10
+    },
+    {
+      "address": 6,
+      "name": "operation Heartbit",
+      "type": "UINT16",
+      "unit": "",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 7,
+      "name": "temperature 1",
+      "type": "INT16",
+      "unit": "°C",
+      "size": 2,
+      "scale": 10
+    },
+    {
+      "address": 8,
+      "name": "frequency",
+      "type": "UINT16",
+      "unit": "Hz",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 9,
+      "name": "program version",
+      "type": "UINT16",
+      "unit": "",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 10,
+      "name": "present CO2 use(month)",
+      "type": "UINT16",
+      "unit": "Kg",
+      "size": 2,
+      "scale": 10
+    },
+    {
+      "address": 12,
+      "name": "V123(LN) average",
+      "type": "UINT32",
+      "unit": "V",
+      "size": 4,
+      "scale": 100
+    },
+    {
+      "address": 13,
+      "name": "V123(LL) average",
+      "type": "UINT32",
+      "unit": "V",
+      "size": 4,
+      "scale": 100
+    },
+    {
+      "address": 14,
+      "name": "V123(LN) unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 15,
+      "name": "V123(LL) unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 16,
+      "name": "V1",
+      "type": "UINT32",
+      "unit": "V",
+      "size": 4,
+      "scale": 100
+    },
+    {
+      "address": 17,
+      "name": "V12",
+      "type": "UINT32",
+      "unit": "V",
+      "size": 4,
+      "scale": 100
+    },
+    {
+      "address": 18,
+      "name": "V1 unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 19,
+      "name": "V12 unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 20,
+      "name": "V2",
+      "type": "UINT32",
+      "unit": "V",
+      "size": 4,
+      "scale": 100
+    },
+    {
+      "address": 21,
+      "name": "V23",
+      "type": "UINT32",
+      "unit": "V",
+      "size": 4,
+      "scale": 100
+    },
+    {
+      "address": 22,
+      "name": "V2 unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 23,
+      "name": "V23 unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 24,
+      "name": "V3",
+      "type": "UINT32",
+      "unit": "V",
+      "size": 4,
+      "scale": 100
+    },
+    {
+      "address": 25,
+      "name": "V31",
+      "type": "UINT32",
+      "unit": "V",
+      "size": 4,
+      "scale": 100
+    },
+    {
+      "address": 26,
+      "name": "V3 unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 27,
+      "name": "V31 unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 28,
+      "name": "V1 THD",
+      "type": "UINT16",
+      "unit": "",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 29,
+      "name": "V2 THD",
+      "type": "UINT16",
+      "unit": "",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 30,
+      "name": "V3 THD",
+      "type": "UINT16",
+      "unit": "",
+      "size": 2,
+      "scale": 100
+    }
+  ],
+  "channelInfo": [
+    {
+      "channel": 1,
+      "address": 100
+    },
+    {
+      "channel": 2,
+      "address": 200
+    },
+    {
+      "channel": 3,
+      "address": 300
+    },
+    {
+      "channel": 4,
+      "address": 400
+    },
+    {
+      "channel": 5,
+      "address": 500
+    },
+    {
+      "channel": 6,
+      "address": 600
+    },
+    {
+      "channel": 7,
+      "address": 700
+    },
+    {
+      "channel": 8,
+      "address": 800
+    },
+    {
+      "channel": 9,
+      "address": 900
+    },
+    {
+      "channel": 10,
+      "address": 1000
+    },
+    {
+      "channel": 11,
+      "address": 1100
+    },
+    {
+      "channel": 12,
+      "address": 1200
+    },
+    {
+      "channel": 13,
+      "address": 1300
+    },
+    {
+      "channel": 14,
+      "address": 1400
+    },
+    {
+      "channel": 15,
+      "address": 1500
+    },
+    {
+      "channel": 16,
+      "address": 1600
+    },
+    {
+      "channel": 17,
+      "address": 1700
+    },
+    {
+      "channel": 18,
+      "address": 1800
+    },
+    {
+      "channel": 19,
+      "address": 1900
+    },
+    {
+      "channel": 20,
+      "address": 2000
+    },
+    {
+      "channel": 21,
+      "address": 2100
+    },
+    {
+      "channel": 22,
+      "address": 2200
+    },
+    {
+      "channel": 23,
+      "address": 2300
+    },
+    {
+      "channel": 24,
+      "address": 2400
+    }
+  ],
+  "channelLocations": [
+    {
+      "channel": "01",
+      "location": "캠퍼스"
+    },
+    {
+      "channel": "02",
+      "location": "캠퍼스1"
+    },
+    {
+      "channel": "03",
+      "location": "전등1"
+    },
+    {
+      "channel": "04",
+      "location": "전등2"
+    },
+    {
+      "channel": "05",
+      "location": "전등3"
+    },
+    {
+      "channel": "06",
+      "location": "강의실b_바닥"
+    },
+    {
+      "channel": "07",
+      "location": "강의실a_바닥1"
+    },
+    {
+      "channel": "08",
+      "location": "강의실a_바닥2"
+    },
+    {
+      "channel": "09",
+      "location": "프로젝터1"
+    },
+    {
+      "channel": "10",
+      "location": "프로젝터2"
+    },
+    {
+      "channel": "11",
+      "location": "회의실"
+    },
+    {
+      "channel": "12",
+      "location": "서버실"
+    },
+    {
+      "channel": "13",
+      "location": "간판"
+    },
+    {
+      "channel": "14",
+      "location": "페어룸"
+    },
+    {
+      "channel": "15",
+      "location": "사무실_전열1"
+    },
+    {
+      "channel": "16",
+      "location": "사무실_전열2"
+    },
+    {
+      "channel": "17",
+      "location": "사무실_복사기"
+    },
+    {
+      "channel": "18",
+      "location": "빌트인_전열"
+    },
+    {
+      "channel": "19",
+      "location": "사무실_전열3"
+    },
+    {
+      "channel": "20",
+      "location": "정수기"
+    },
+    {
+      "channel": "21",
+      "location": "하이브_전열"
+    },
+    {
+      "channel": "22",
+      "location": "바텐_전열"
+    },
+    {
+      "channel": "23",
+      "location": "S_P"
+    },
+    {
+      "channel": "24",
+      "location": "공조기"
+    },
+    {
+      "channel": "25",
+      "location": "AC"
+    }
+  ],
+  "data": [
+    {
+      "address": 0,
+      "name": "type",
+      "type": "UINT16",
+      "unit": "",
+      "size": 1,
+      "scale": 0
+    },
+    {
+      "address": 1,
+      "name": "a leakage current",
+      "type": "UINT16",
+      "unit": "mA",
+      "size": 1,
+      "scale": 1
+    },
+    {
+      "address": 2,
+      "name": "current",
+      "type": "UINT32",
+      "unit": "A",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 4,
+      "name": "W",
+      "type": "INT32",
+      "unit": "W",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 6,
+      "name": "VAR",
+      "type": "INT32",
+      "unit": "VAR",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 8,
+      "name": "VA",
+      "type": "UINT32",
+      "unit": "VA",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 10,
+      "name": "PF average",
+      "type": "INT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 12,
+      "name": "current unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 13,
+      "name": "I THD average",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 14,
+      "name": "IGR",
+      "type": "UINT16",
+      "unit": "A",
+      "size": 1,
+      "scale": 10
+    },
+    {
+      "address": 15,
+      "name": "IGC",
+      "type": "UINT16",
+      "unit": "A",
+      "size": 1,
+      "scale": 10
+    },
+    {
+      "address": 16,
+      "name": "V1",
+      "type": "UINT32",
+      "unit": "V",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 18,
+      "name": "I1",
+      "type": "UINT32",
+      "unit": "A",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 20,
+      "name": "W",
+      "type": "INT32",
+      "unit": "W",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 22,
+      "name": "VAR",
+      "type": "INT32",
+      "unit": "VAR",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 24,
+      "name": "VA",
+      "type": "UINT32",
+      "unit": "VA",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 26,
+      "name": "volt unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 27,
+      "name": "current unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 28,
+      "name": "phase",
+      "type": "UINT16",
+      "unit": "°",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 29,
+      "name": "power factor",
+      "type": "INT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 30,
+      "name": "I1 THD",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 31,
+      "name": "reserved",
+      "type": "UINT16",
+      "unit": "",
+      "size": 1,
+      "scale": 1
+    },
+    {
+      "address": 32,
+      "name": "V2",
+      "type": "UINT32",
+      "unit": "V",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 34,
+      "name": "I2",
+      "type": "UINT32",
+      "unit": "A",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 36,
+      "name": "W",
+      "type": "INT32",
+      "unit": "W",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 38,
+      "name": "VAR",
+      "type": "INT32",
+      "unit": "VAR",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 40,
+      "name": "VA",
+      "type": "UINT32",
+      "unit": "VA",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 42,
+      "name": "volt unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 43,
+      "name": "current unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 44,
+      "name": "phase",
+      "type": "UINT16",
+      "unit": "°",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 45,
+      "name": "power factor",
+      "type": "INT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 46,
+      "name": "I2 THD",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 47,
+      "name": "reserved",
+      "type": "UINT16",
+      "unit": "",
+      "size": 1,
+      "scale": 1
+    },
+    {
+      "address": 48,
+      "name": "V3",
+      "type": "UINT32",
+      "unit": "V",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 50,
+      "name": "I3",
+      "type": "UINT32",
+      "unit": "A",
+      "size": 2,
+      "scale": 100
+    },
+    {
+      "address": 52,
+      "name": "W",
+      "type": "INT32",
+      "unit": "W",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 54,
+      "name": "VAR",
+      "type": "INT32",
+      "unit": "VAR",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 56,
+      "name": "VA",
+      "type": "UINT32",
+      "unit": "VA",
+      "size": 2,
+      "scale": 1
+    },
+    {
+      "address": 58,
+      "name": "volt unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 59,
+      "name": "current unbalance",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 60,
+      "name": "phase",
+      "type": "UINT16",
+      "unit": "°",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 61,
+      "name": "power factor",
+      "type": "INT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 62,
+      "name": "I3 THD",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 100
+    },
+    {
+      "address": 63,
+      "name": "reserved",
+      "type": "UINT16",
+      "unit": "%",
+      "size": 1,
+      "scale": 1
+    }
+  ]
+}

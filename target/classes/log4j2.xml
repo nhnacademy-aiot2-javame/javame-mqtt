@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <!-- Appenders -->
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+        </Console>
+
+        <!-- RollingFile Appender for MQTT Logs -->
+        <RollingFile name="MqttRollingFile"
+                     fileName="logs/mqtt/${date:yyyy}/${date:MM}/${date:dd}/mqtt.log"
+                     filePattern="logs/mqtt/${date:yyyy}/${date:MM}/${date:dd}/mqtt.%d{yyyy-MM-dd-HH}.log">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile>
+
+        <!-- RollingFile Appender for Modbus Logs -->
+        <RollingFile name="ModbusRollingFile"
+                     fileName="logs/modbus/${date:yyyy}/${date:MM}/${date:dd}/modbus.log"
+                     filePattern="logs/modbus/${date:yyyy}/${date:MM}/${date:dd}/modbus.%d{yyyy-MM-dd-HH}.log">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %n%msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <!-- Logger Configuration -->
+    <Loggers>
+        <!-- Root Logger -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="MqttRollingFile"/>
+        </Root>
+
+        <!-- Modbus Logger -->
+        <Logger name="com.example.modbus" level="debug" additivity="false">
+            <AppenderRef ref="ModbusRollingFile"/>
+        </Logger>
+    </Loggers>
+</Configuration>
