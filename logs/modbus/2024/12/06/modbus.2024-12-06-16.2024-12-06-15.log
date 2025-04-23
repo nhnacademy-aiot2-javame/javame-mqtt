@@ -1,0 +1,18 @@
+2024-12-06 15:25:15 [main] INFO  com.example.modbus.Main - 
+Address map loaded successfully.
+2024-12-06 15:25:15 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Modbus 통신을 시작합니다...
+2024-12-06 15:25:15 [main] ERROR com.example.modbus.ModbusMasterTCP - 
+Modbus 연결 오류: Cannot invoke "com.fasterxml.jackson.databind.JsonNode.asInt()" because the return value of "com.fasterxml.jackson.databind.JsonNode.get(String)" is null
+2024-12-06 15:42:37 [main] ERROR com.example.modbus.Main - 
+Error loading address map file: addressMap.json (그런 파일이나 디렉터리가 없습니다)
+2024-12-06 15:48:40 [main] ERROR com.example.modbus.Main - 
+Error loading address map file: addressMap.json (그런 파일이나 디렉터리가 없습니다)
+2024-12-06 15:50:18 [main] INFO  com.example.modbus.Main - 
+Address map loaded successfully.
+2024-12-06 15:50:18 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Modbus 통신을 시작합니다...
+2024-12-06 15:52:26 [main] INFO  com.example.modbus.Main - 
+Address map loaded successfully.
+2024-12-06 15:52:26 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Modbus 통신을 시작합니다...

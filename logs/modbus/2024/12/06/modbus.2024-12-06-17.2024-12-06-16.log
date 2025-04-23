@@ -1,0 +1,444 @@
+2024-12-06 16:06:02 [main] INFO  com.example.modbus.Main - 
+Address map loaded successfully.
+2024-12-06 16:06:02 [main] INFO  com.example.modbus.MqttClientService - 
+MQTT 클라이언트 연결 성공
+2024-12-06 16:06:02 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Modbus 통신을 시작합니다...
+2024-12-06 16:06:02 [main] INFO  com.example.modbus.MqttClientService - 
+MQTT 클라이언트 연결 종료
+2024-12-06 16:06:02 [main] INFO  com.example.modbus.InfluxDBService - 
+InfluxDB 연결 종료
+2024-12-06 16:09:29 [main] INFO  com.example.modbus.Main - 
+Address map loaded successfully.
+2024-12-06 16:09:29 [main] INFO  com.example.modbus.MqttClientService - 
+MQTT 클라이언트 연결 성공
+2024-12-06 16:09:29 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Modbus 통신을 시작합니다...
+2024-12-06 16:14:54 [main] INFO  com.example.modbus.Main - 
+Address map loaded successfully.
+2024-12-06 16:14:55 [main] INFO  com.example.modbus.MqttClientService - 
+MQTT 클라이언트 연결 성공
+2024-12-06 16:14:55 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Modbus 통신을 시작합니다...
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.Main - 
+Address map loaded successfully.
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Modbus 통신을 시작합니다...
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 0, Name: operation Heartbit, Type: UINT16, Unit: , Value: 37792
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 1, Name: temperature, Type: INT16, Unit: °C, Value: 211
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 2, Name: frequency, Type: UINT16, Unit: Hz, Value: 6002
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 3, Name: program version, Type: UINT16, Unit: , Value: 63269
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 4, Name: present CO2 use(month), Type: UINT16, Unit: Kg, Value: 1374
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 6, Name: operation Heartbit, Type: UINT16, Unit: , Value: 212
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 7, Name: temperature 1, Type: INT16, Unit: °C, Value: 6002
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 8, Name: frequency, Type: UINT16, Unit: Hz, Value: 63269
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 9, Name: program version, Type: UINT16, Unit: , Value: 1374
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 10, Name: present CO2 use(month), Type: UINT16, Unit: Kg, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 12, Name: V123(LN) average, Type: UINT32, Unit: V, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 13, Name: V123(LL) average, Type: UINT32, Unit: V, Value: 38339
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 14, Name: V123(LN) unbalance, Type: UINT16, Unit: %, Value: 31
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 15, Name: V123(LL) unbalance, Type: UINT16, Unit: %, Value: 15
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 16, Name: V1, Type: UINT32, Unit: V, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 17, Name: V12, Type: UINT32, Unit: V, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 18, Name: V1 unbalance, Type: UINT16, Unit: %, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 19, Name: V12 unbalance, Type: UINT16, Unit: %, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 20, Name: V2, Type: UINT32, Unit: V, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 21, Name: V23, Type: UINT32, Unit: V, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 22, Name: V2 unbalance, Type: UINT16, Unit: %, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 23, Name: V23 unbalance, Type: UINT16, Unit: %, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 24, Name: V3, Type: UINT32, Unit: V, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 25, Name: V31, Type: UINT32, Unit: V, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 26, Name: V3 unbalance, Type: UINT16, Unit: %, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 27, Name: V31 unbalance, Type: UINT16, Unit: %, Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 28, Name: V1 THD, Type: UINT16, Unit: , Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 29, Name: V2 THD, Type: UINT16, Unit: , Value: 0
+2024-12-06 16:28:08 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 30, Name: V3 THD, Type: UINT16, Unit: , Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.Main - 
+Address map loaded successfully.
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Modbus 통신을 시작합니다...
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 0, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 0, Name: operation Heartbit, Type: UINT16, Value: 39552
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 1, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 1, Name: temperature, Type: INT16, Value: 212
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 2, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 2, Name: frequency, Type: UINT16, Value: 6000
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 3, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 3, Name: program version, Type: UINT16, Value: 63269
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 4, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 4, Name: present CO2 use(month), Type: UINT16, Value: 1375
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 6, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 6, Name: operation Heartbit, Type: UINT16, Value: 212
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 7, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 7, Name: temperature 1, Type: INT16, Value: 5998
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 8, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 8, Name: frequency, Type: UINT16, Value: 63269
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 9, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 9, Name: program version, Type: UINT16, Value: 1375
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 10, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 10, Name: present CO2 use(month), Type: UINT16, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 12, Size: 4
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 12, Name: V123(LN) average, Type: UINT32, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 13, Size: 4
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 13, Name: V123(LL) average, Type: UINT32, Value: 38301
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 14, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 14, Name: V123(LN) unbalance, Type: UINT16, Value: 29
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 15, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 15, Name: V123(LL) unbalance, Type: UINT16, Value: 14
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 16, Size: 4
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 16, Name: V1, Type: UINT32, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 17, Size: 4
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 17, Name: V12, Type: UINT32, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 18, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 18, Name: V1 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 19, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 19, Name: V12 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 20, Size: 4
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 20, Name: V2, Type: UINT32, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 21, Size: 4
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 21, Name: V23, Type: UINT32, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 22, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 22, Name: V2 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 23, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 23, Name: V23 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 24, Size: 4
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 24, Name: V3, Type: UINT32, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 25, Size: 4
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 25, Name: V31, Type: UINT32, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 26, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 26, Name: V3 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 27, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 27, Name: V31 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 28, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 28, Name: V1 THD, Type: UINT16, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 29, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 29, Name: V2 THD, Type: UINT16, Value: 0
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 30, Size: 2
+2024-12-06 16:31:10 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 30, Name: V3 THD, Type: UINT16, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.Main - 
+Address map loaded successfully.
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Modbus 통신을 시작합니다...
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 0, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 0, Name: operation Heartbit, Type: UINT16, Value: 43952
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 1, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 1, Name: temperature, Type: INT16, Value: 212
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 2, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 2, Name: frequency, Type: UINT16, Value: 6002
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 3, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 3, Name: program version, Type: UINT16, Value: 63269
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 4, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 4, Name: present CO2 use(month), Type: UINT16, Value: 1377
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 6, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 6, Name: operation Heartbit, Type: UINT16, Value: 212
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 7, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 7, Name: temperature 1, Type: INT16, Value: 6002
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 8, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 8, Name: frequency, Type: UINT16, Value: 63269
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 9, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 9, Name: program version, Type: UINT16, Value: 1377
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 10, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 10, Name: present CO2 use(month), Type: UINT16, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 12, Size: 4
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 12, Name: V123(LN) average, Type: UINT32, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 13, Size: 4
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 13, Name: V123(LL) average, Type: UINT32, Value: 38419
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 14, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 14, Name: V123(LN) unbalance, Type: UINT16, Value: 31
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 15, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 15, Name: V123(LL) unbalance, Type: UINT16, Value: 15
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 16, Size: 4
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 16, Name: V1, Type: UINT32, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 17, Size: 4
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 17, Name: V12, Type: UINT32, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 18, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 18, Name: V1 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 19, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 19, Name: V12 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 20, Size: 4
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 20, Name: V2, Type: UINT32, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 21, Size: 4
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 21, Name: V23, Type: UINT32, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 22, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 22, Name: V2 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 23, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 23, Name: V23 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 24, Size: 4
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 24, Name: V3, Type: UINT32, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 25, Size: 4
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 25, Name: V31, Type: UINT32, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 26, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 26, Name: V3 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 27, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 27, Name: V31 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 28, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 28, Name: V1 THD, Type: UINT16, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 29, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 29, Name: V2 THD, Type: UINT16, Value: 0
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 30, Size: 2
+2024-12-06 16:38:42 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 30, Name: V3 THD, Type: UINT16, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.Main - 
+Address map loaded successfully.
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Modbus 통신을 시작합니다...
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 0, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 0, Name: operation Heartbit, Type: UINT16, Value: 51092
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 1, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 1, Name: temperature, Type: INT16, Value: 212
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 2, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 2, Name: frequency, Type: UINT16, Value: 6003
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 3, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 3, Name: program version, Type: UINT16, Value: 63269
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 4, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 4, Name: present CO2 use(month), Type: UINT16, Value: 1381
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 6, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 6, Name: operation Heartbit, Type: UINT16, Value: 211
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 7, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 7, Name: temperature 1, Type: INT16, Value: 6003
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 8, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 8, Name: frequency, Type: UINT16, Value: 63269
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 9, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 9, Name: program version, Type: UINT16, Value: 1381
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 10, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 10, Name: present CO2 use(month), Type: UINT16, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 12, Size: 4
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 12, Name: V123(LN) average, Type: UINT32, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 13, Size: 4
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 13, Name: V123(LL) average, Type: UINT32, Value: 37761
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 14, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 14, Name: V123(LN) unbalance, Type: UINT16, Value: 34
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 15, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 15, Name: V123(LL) unbalance, Type: UINT16, Value: 17
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 16, Size: 4
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 16, Name: V1, Type: UINT32, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 17, Size: 4
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 17, Name: V12, Type: UINT32, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 18, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 18, Name: V1 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 19, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 19, Name: V12 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 20, Size: 4
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 20, Name: V2, Type: UINT32, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 21, Size: 4
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 21, Name: V23, Type: UINT32, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 22, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 22, Name: V2 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 23, Size: 2
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 23, Name: V23 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 24, Size: 4
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 24, Name: V3, Type: UINT32, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 25, Size: 4
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 25, Name: V31, Type: UINT32, Value: 0
+2024-12-06 16:50:51 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 26, Size: 2
+2024-12-06 16:50:52 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 26, Name: V3 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:50:52 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 27, Size: 2
+2024-12-06 16:50:52 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 27, Name: V31 unbalance, Type: UINT16, Value: 0
+2024-12-06 16:50:52 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 28, Size: 2
+2024-12-06 16:50:52 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 28, Name: V1 THD, Type: UINT16, Value: 0
+2024-12-06 16:50:52 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 29, Size: 2
+2024-12-06 16:50:52 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 29, Name: V2 THD, Type: UINT16, Value: 0
+2024-12-06 16:50:52 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Reading from Address: 30, Size: 2
+2024-12-06 16:50:52 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 30, Name: V3 THD, Type: UINT16, Value: 0

@@ -1,0 +1,62 @@
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.Main - 
+Address map loaded successfully.
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Modbus 통신을 시작합니다...
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 0, Value: 24633
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 1, Value: 213
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 2, Value: 6003
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 3, Value: 63269
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 4, Value: 1331
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 6, Value: 213
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 7, Value: 6003
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 8, Value: 63269
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 9, Value: 1331
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 10, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 12, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 13, Value: 38196
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 14, Value: 31
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 15, Value: 15
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 16, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 17, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 18, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 19, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 20, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 21, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 22, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 23, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 24, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 25, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 26, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 27, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 28, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 29, Value: 0
+2024-12-06 14:14:00 [main] INFO  com.example.modbus.ModbusMasterTCP - 
+Address: 30, Value: 0
