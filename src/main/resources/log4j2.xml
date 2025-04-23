@@ -21,7 +21,6 @@
             </Policies>
         </RollingFile>
 
-
         <!-- RollingFile Appender for Modbus Logs -->
         <RollingFile name="ModbusRollingFile"
                      fileName="logs/modbus/${date:yyyy}/${date:MM}/${date:dd}/modbus.log"
